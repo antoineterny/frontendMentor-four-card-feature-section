@@ -1,0 +1,143 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  overflow-x: hidden;
+  padding: 72px 31px 0;
+  margin-bottom: 31px;
+  min-width: 380px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 200;
+  color: #4c4e61;
+  font-size: 24px;
+  letter-spacing: 0.2px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #4c4e61;
+  font-size: 24px;
+  line-height: 0.3;
+  letter-spacing: 0.2px;
+}
+
+header p {
+  font-weight: 400;
+  color: #a3a5ae;
+  line-height: 1.7;
+  max-width: 350px;
+  padding-top: 10px;
+  padding-bottom: 56px;
+  margin: auto;
+}
+
+.four-cards {
+  max-width: 1110px;
+  margin: auto;
+}
+
+.card {
+  background-color: white;
+  height: 222px;
+  flex-basis: 350px;
+  max-width: 500px;
+  padding: 30px;
+  margin: 0 auto 24px;
+  border-radius: 10px;
+  box-shadow: 0px 13px 10px 0px rgba(163, 165, 174, 0.33);
+}
+
+h3 {
+  font-weight: 600;
+  color: #4c4e61;
+  font-size: 20px;
+  margin: 4px 0;
+}
+
+.card p {
+  font-size: 13px;
+  color: #a3a5ae;
+  line-height: 1.9;
+  margin: 6px 0;
+}
+
+figure {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 25px;
+}
+
+figure img {
+  width: 56px;
+  height: 56px;
+}
+
+#supervisor {
+  background: linear-gradient(#45d3d3 2%, white 2%);
+}
+
+#team-builder {
+  background: linear-gradient(#ea5353 2%, white 2%);
+}
+
+#karma {
+  background: linear-gradient(#fcaf4a 2%, white 2%);
+}
+
+#calculator {
+  background: linear-gradient(#549ef2 2%, white 2%);
+}
+
+@media (min-width: 960px) {
+  body {
+    padding-top: 61px;
+  }
+  h1,
+  h2 {
+    font-size: 36px;
+  }
+  h2 {
+    line-height: 0;
+  }
+  header p {
+    max-width: 500px;
+    padding-bottom: 66px;
+    margin: auto;
+  }
+  .four-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .two-cards {
+    margin: 0 30px;
+    width: 350px;
+  }
+  .card {
+    height: 250px;
+    margin: 0 0 30px;
+  }
+  h3 {
+    margin: 5px 0 11px;
+  }
+  figure {
+    padding-top: 31px;
+  }
+  figure img {
+    width: 64px;
+    height: 64px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
